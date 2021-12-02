@@ -1,0 +1,93 @@
+body{
+    background: url(../img/background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+.MedievalSharp{
+    font-family: 'MedievalSharp', cursive;
+}
+
+.imgcenter{
+    text-align: center;
+    border-radius: 15%;
+}
+    
+
+.prin_title{
+    position: absolute;
+    width: 50%;
+    right: 25%;
+    text-align: center;
+    color: rgb(27, 38, 110);
+    font-family: 'Satisfy', cursive;
+}
+
+.titulo{
+    color: rgb(27, 38, 110);
+    font-family: 'Satisfy', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
+
+}
+
+.principal:hover{
+    background-color:rgb(248, 184, 87);
+}
+
+.principal:active{
+    border: 3px solid rosybrown;
+    color: blueviolet;
+}
+
+.pagina2:hover{
+    background-color:rgb(248, 184, 87);
+}
+
+.pagina2:active{
+    border: 3px solid rosybrown;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pagina2, .principal{
+    background-color: blanchedalmond;
+
+    border: 1px solid black;
+
+    flex: 1;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    top: 35%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.blank-1{
+    padding: 1em;
+}
+
+.blank-2{
+    padding: 2em;
+}
+
+.card{
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+}
